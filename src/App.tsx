@@ -1,9 +1,13 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Navbar from "./components/layout/Navbar";
+
 export default function App() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">
-        Hello you
-      </h1>
-    </>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        {/* <Route path="/" element={<Home />} /> */}
+      </Routes>
+    </BrowserRouter>
   )
 }

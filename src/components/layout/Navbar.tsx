@@ -15,7 +15,9 @@ export default function Navbar() {
                         <div className="flex items-center gap-2">
                             <Link to="/" className="flex items-center gap-2">
                                 <img src="/assets/layout/logo.png" alt="Neovalt Logo" width={40} height={16} loading="lazy" />
-                                <h1 className="bg-linear-to-r from-white via-gray-200 to-gray-600 bg-clip-text text-transparent font-bold text-3xl hidden md:flex">CoGrow</h1>
+                                <h1 className="bg-linear-to-r from-white via-gray-200 to-gray-600 bg-clip-text text-transparent font-bold text-3xl hidden md:flex">
+                                    Neovalt
+                                </h1>
                             </Link>
                         </div>
 
